@@ -2,6 +2,8 @@
 const nextConfig = {
 	output: 'export',
 	trailingSlash: true,
+	basePath: '/portfolio-site',
+	assetPrefix: '/portfolio-site/',
 	images: {
 		unoptimized: true,
 		remotePatterns: [

@@ -128,3 +128,35 @@ Sass is watching for changes. Press Ctrl-C to stop.
 
  ✓ Starting...
  ✓ Ready in 712ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 748ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1271ms
+ GET / 200 in 1416ms
+ GET / 200 in 118ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 666ms
+ ⨯ A conflicting public file and page file was found for path /favicon.ico https://nextjs.org/docs/messages/conflicting-public-file-page
+ GET /favicon.ico?favicon.45db1c09.ico 500 in 762ms
+ GET / 200 in 71ms
+ ⨯ A conflicting public file and page file was found for path /favicon.ico https://nextjs.org/docs/messages/conflicting-public-file-page
+ GET /favicon.ico?favicon.45db1c09.ico 500 in 27ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 775ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 661ms

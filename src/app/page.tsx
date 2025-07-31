@@ -8,7 +8,7 @@ export default function Home() {
 			{/* Lead-in Section */}
 			<section style={{ marginBottom: '160px' }}>
 				<img
-					src="/images/emoji-wave.svg"
+					src="./images/emoji-wave.svg"
 					alt="Waving emoji"
 					style={{
 						width: '36px',

@@ -160,3 +160,89 @@ Sass is watching for changes. Press Ctrl-C to stop.
 
  ✓ Starting...
  ✓ Ready in 661ms
+ ○ Compiling /_not-found/page ...
+ ✓ Compiled /_not-found/page in 1345ms
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.9hth2un9h9'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.9hth2un9h9'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 501ms
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.wlv7o01vg0o'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.wlv7o01vg0o'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.90wtx7z1gk'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.90wtx7z1gk'
+}
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.8kdenjhtz4f'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.8kdenjhtz4f'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.xayuu5v42rt'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.xayuu5v42rt'
+}
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.s5kfp0d84b'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.s5kfp0d84b'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.q0pmd0r95q'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.q0pmd0r95q'
+}
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.g4ftdmx1pfc'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.g4ftdmx1pfc'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.1kit0zle2sn'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.1kit0zle2sn'
+}
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.yw44g029ma'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.yw44g029ma'
+}
+ ⨯ [Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.ewqnu44sh4n'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.ewqnu44sh4n'
+}
+[Error: ENOENT: no such file or directory, open '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.y02fr605a3o'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'open',
+  path: '/Users/aaronsleeper/Desktop/Vaults/Stack Overflowed/Portfolio Site/portfolio-site/.next/static/development/_buildManifest.js.tmp.y02fr605a3o'
+}
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 792ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1260ms
+ GET / 200 in 1527ms

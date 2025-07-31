@@ -6,7 +6,7 @@
 	"scripts": {
 		"dev": "npm run scss:watch & next dev --turbopack",
 		"build": "npm run scss:build && next build",
-		"build:gh-pages": "npm run scss:build && next build",
+		"build:gh-pages": "npm run scss:build && cp next.config.gh-pages.js next.config.js && next build && cp next.config.js next.config.gh-pages.js && git checkout next.config.js",
 		"start": "next start",
 		"lint": "next lint",
 		"scss:build": "sass src/styles/scss/main.scss src/app/globals.css --style compressed",

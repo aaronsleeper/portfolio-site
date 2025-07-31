@@ -45,7 +45,7 @@ export function Header() {
 				}}
 			></div>
 			<img
-				src="./images/logo-aaron-sleeper.svg"
+				src="/images/logo-aaron-sleeper.svg"
 				alt="Aaron Sleeper Logo"
 				style={{
 					width: '32px',

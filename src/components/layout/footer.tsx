@@ -25,7 +25,7 @@ export function Footer() {
 				}}
 			>
 				<img
-					src="./images/icon-component-instance.svg"
+					src="/images/icon-component-instance.svg"
 					alt="Contact icon"
 					style={{ width: '24px', height: '24px', marginRight: '0.5rem' }}
 				/>

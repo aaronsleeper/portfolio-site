@@ -96,21 +96,10 @@ body {
 }
 
 .work-samples-grid {
-	display: grid;
-	grid-template-columns: 1fr;
-	gap: 2rem;
-}
-
-@media (min-width: 768px) {
-	.work-samples-grid {
-		grid-template-columns: repeat(2, 1fr);
-	}
-}
-
-@media (min-width: 1024px) {
-	.work-samples-grid {
-		grid-template-columns: repeat(3, 1fr);
-	}
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+	width: 100%;
 }
 
 /* Work sample styles */
@@ -118,7 +107,7 @@ body {
 	background: #fff;
 	border: 1px solid #e5e7eb;
 	border-radius: 0.625rem;
-	padding: 1.5rem;
+	padding: 1rem;
 	transition: all 0.2s ease-in-out;
 	height: 100%;
 	display: flex;
@@ -136,7 +125,7 @@ body {
 .work-sample-layout {
 	display: grid;
 	grid-template-columns: 1fr 2fr;
-	gap: 2rem;
+	gap: 1.5rem;
 	height: 100%;
 }
 

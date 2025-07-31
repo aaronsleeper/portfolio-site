@@ -11,4 +11,4 @@ export const sample10: WorkSampleProps = {
 		'/images/content/example-image.webp',
 		'/images/content/example-image.webp',
 	],
-}; 
+};

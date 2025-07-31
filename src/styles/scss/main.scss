@@ -103,6 +103,7 @@
 	body {
 		@apply bg-background text-foreground;
 		@include body-base;
+		margin: 0 40px;
 	}
 
 	// Typography hierarchy

@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Bricolage_Grotesque } from 'next/font/google';
 import './globals.css';
-import './work-samples.css';
 import { ThemeProvider } from '@/components/theme/theme-provider';
 import { Layout } from '@/components/layout/layout';
 

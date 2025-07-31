@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Aaron Sleeper - Product Designer</title>
+		<link
+			rel="stylesheet"
+			href="styles.css"
+		/>
+	</head>
+	<body>
+		<header class="site-header">
+			<div class="container">
+				<img
+					src="images/logo-aaron-sleeper.svg"
+					alt="Aaron Sleeper Logo"
+					class="logo mb-4"
+				/>
+				<h1>
+					<span class="name">Aaron Sleeper</span>
+					<span class="role">Product Designer</span>
+					<span class="location">San Diego, CA</span>
+				</h1>
+			</div>
+		</header>
+
+		<main class="container">
+			<section class="lead-in">
+				<img
+					src="images/emoji-wave.svg"
+					alt="Waving emoji"
+					class="emoji"
+				/>
+				<h2>I design transformative products.</h2>
+				<p>A few projects I've contributed to include:</p>
+			</section>
+
+			<section class="work-samples">
+				<h2>Work Samples</h2>
+				<div class="work-samples-grid">
+					<div class="work-sample">
+						<div class="work-sample-layout">
+							<div class="work-sample-content">
+								<h3>Bessemer Trust</h3>
+								<h4>Consumer Platform</h4>
+								<p>
+									Led UX for Bessemer Trust's client platform, a comprehensive
+									wealth management tool supporting estate planning, real
+									assets, investments, and personalized financial reporting.
+									Designed features that clarified portfolio performance and
+									surfaced tailored insights for high-net-worth individuals.
+									Created a branded design system to accelerate ideation and
+									prototyping. Helped prioritize roadmap features that secured
+									board approval for funding, driving improvements that elevated
+									client satisfaction and deepened advisor relationships.
+								</p>
+							</div>
+							<div class="work-sample-carousel">
+								<div class="carousel-container">
+									<img
+										src="images/content/example-image.webp"
+										alt="Bessemer Trust - Image 1"
+										class="carousel-image"
+									/>
+									<button
+										class="carousel-button carousel-button-prev"
+										onclick="prevImage(this)"
+									>
+										‹
+									</button>
+									<button
+										class="carousel-button carousel-button-next"
+										onclick="nextImage(this)"
+									>
+										›
+									</button>
+									<div class="carousel-indicators">
+										<button
+											class="carousel-indicator active"
+											onclick="goToImage(this, 0)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 1)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 2)"
+										></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="work-sample">
+						<div class="work-sample-layout">
+							<div class="work-sample-content">
+								<h3>Connected Care</h3>
+								<h4>Unifying Patient Data & Empowering Whole-Person Care</h4>
+								<p>
+									Partnered with cross-functional stakeholders to envision and
+									prototype a digital platform that helps patients and providers
+									navigate complex healthcare journeys. Led discovery, ideation,
+									and experience design efforts—from early pitch through
+									clickable prototypes. Our proof-of-concept secured a $50M
+									contract, laying the foundation for a scalable, AI-driven care
+									navigation solution.
+								</p>
+							</div>
+							<div class="work-sample-carousel">
+								<div class="carousel-container">
+									<img
+										src="images/content/example-image.webp"
+										alt="Connected Care - Image"
+										class="carousel-image"
+									/>
+									<button
+										class="carousel-button carousel-button-prev"
+										onclick="prevImage(this)"
+									>
+										‹
+									</button>
+									<button
+										class="carousel-button carousel-button-next"
+										onclick="nextImage(this)"
+									>
+										›
+									</button>
+									<div class="carousel-indicators">
+										<button
+											class="carousel-indicator active"
+											onclick="goToImage(this, 0)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 1)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 2)"
+										></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="work-sample">
+						<div class="work-sample-layout">
+							<div class="work-sample-content">
+								<h3>Accenture Platforms</h3>
+								<h4>Developer Enablement Platform</h4>
+								<p>
+									I led UX for an internal platform designed to accelerate
+									developer productivity and experimentation. The system enabled
+									users to prototype with emerging technologies, capture
+									successful patterns as reusable templates, and manage private
+									data securely through a permissions-based suite. I created the
+									design system from the ground up, developed key workflows and
+									prototypes, and collaborated closely with stakeholders to
+									align the product vision. A key innovation was a
+									privacy-preserving correlation algorithm that linked PII
+									records via hashed data—enabling insights without compromising
+									security.
+								</p>
+							</div>
+							<div class="work-sample-carousel">
+								<div class="carousel-container">
+									<img
+										src="images/content/example-image.webp"
+										alt="Accenture Platforms - Image 1"
+										class="carousel-image"
+									/>
+									<button
+										class="carousel-button carousel-button-prev"
+										onclick="prevImage(this)"
+									>
+										‹
+									</button>
+									<button
+										class="carousel-button carousel-button-next"
+										onclick="nextImage(this)"
+									>
+										›
+									</button>
+									<div class="carousel-indicators">
+										<button
+											class="carousel-indicator active"
+											onclick="goToImage(this, 0)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 1)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 2)"
+										></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="work-sample">
+						<div class="work-sample-layout">
+							<div class="work-sample-content">
+								<h3>Virtual Storefront Platform</h3>
+								<h4>Accenture x Nordstrom</h4>
+								<p>
+									As UX lead, I helped shape a white-label platform concept for
+									Accenture, developed in collaboration with Nordstrom. The
+									experience allowed customers to virtually explore retail
+									environments in a Google Street View-style interface—bringing
+									the familiarity and discovery of in-store browsing to digital
+									commerce. I crafted the design system, prototyped immersive
+									workflows, and guided stakeholder alignment through visual
+									storytelling. The project culminated in a $25M contract win
+									for Accenture, validating the platform's strategic value and
+									experiential impact.
+								</p>
+							</div>
+							<div class="work-sample-carousel">
+								<div class="carousel-container">
+									<img
+										src="images/content/example-image.webp"
+										alt="Virtual Storefront Platform - Image 1"
+										class="carousel-image"
+									/>
+									<button
+										class="carousel-button carousel-button-prev"
+										onclick="prevImage(this)"
+									>
+										‹
+									</button>
+									<button
+										class="carousel-button carousel-button-next"
+										onclick="nextImage(this)"
+									>
+										›
+									</button>
+									<div class="carousel-indicators">
+										<button
+											class="carousel-indicator active"
+											onclick="goToImage(this, 0)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 1)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 2)"
+										></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="work-sample">
+						<div class="work-sample-layout">
+							<div class="work-sample-content">
+								<h3>Global Scheduling Platform</h3>
+								<h4>Discovery Networks</h4>
+								<p>
+									I led UX for a unified scheduling platform serving Discovery's
+									global portfolio of channels. Designed to simplify complex,
+									multi-region programming workflows, the system provided a
+									centralized interface for staff to build and manage channel
+									schedules across time zones and teams. I developed the design
+									system, prototyped all core interactions, and aligned
+									stakeholders through iterative feedback cycles. The platform
+									reduced scheduling conflicts by 60%, significantly improving
+									operational efficiency and cross-team coordination.
+								</p>
+							</div>
+							<div class="work-sample-carousel">
+								<div class="carousel-container">
+									<img
+										src="images/content/example-image.webp"
+										alt="Global Scheduling Platform - Image 1"
+										class="carousel-image"
+									/>
+									<button
+										class="carousel-button carousel-button-prev"
+										onclick="prevImage(this)"
+									>
+										‹
+									</button>
+									<button
+										class="carousel-button carousel-button-next"
+										onclick="nextImage(this)"
+									>
+										›
+									</button>
+									<div class="carousel-indicators">
+										<button
+											class="carousel-indicator active"
+											onclick="goToImage(this, 0)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 1)"
+										></button>
+										<button
+											class="carousel-indicator"
+											onclick="goToImage(this, 2)"
+										></button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="site-footer">
+			<div class="container">
+				<div class="footer-content">
+					<img
+						src="images/icon-component-instance.svg"
+						alt="Contact icon"
+						class="contact-icon"
+					/>
+					<a href="mailto:aaron@example.com">aaron@example.com</a>
+				</div>
+			</div>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>

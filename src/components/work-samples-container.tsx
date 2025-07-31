@@ -14,10 +14,14 @@ export const WorkSamplesContainer: React.FC<WorkSamplesContainerProps> = ({
 }) => {
 	return (
 		<section className={`work-samples-container ${className}`}>
-			{title && (
-				<h2 className="text-3xl font-bold text-center mb-8">{title}</h2>
-			)}
-			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+			<div
+				style={{
+					display: 'flex',
+					flexDirection: 'column',
+					gap: '160px',
+					width: '100%',
+				}}
+			>
 				{samples.map((sample) => (
 					<WorkSample
 						key={sample.id}

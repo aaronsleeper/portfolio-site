@@ -1,21 +1,51 @@
 import { WorkSamplesContainer } from '@/components/work-samples-container';
 import { workSamplesArray } from '@/content/work-samples';
+import './work-samples.css';
 
 export default function Home() {
 	return (
-		<div className="container mx-auto px-4 py-16">
+		<div>
 			{/* Lead-in Section */}
-			<section className="mb-16 text-center">
+			<section style={{ marginBottom: '160px' }}>
 				<img
 					src="/images/emoji-wave.svg"
 					alt="Waving emoji"
-					className="w-16 h-16 mx-auto mb-6"
+					style={{
+						width: '36px',
+						height: '36px',
+						marginBottom: '19px',
+						display: 'block',
+					}}
 				/>
-				<h2 className="text-3xl font-bold mb-4">
-					I design transformative products.
+				<h2
+					style={{
+						color: '#1F2033',
+						fontFamily: 'Bricolage Grotesque',
+						fontSize: '45px',
+						fontStyle: 'normal',
+						fontWeight: '500',
+						lineHeight: '48px',
+						marginBottom: '19px',
+						margin: '0 0 19px 0',
+					}}
+				>
+					I design
+					<br />
+					transformative products.
 				</h2>
-				<p className="text-lg text-muted-foreground">
-					A few projects I've contributed to include:
+				<p
+					style={{
+						color: '#43435B',
+						fontFamily: 'Inter',
+						fontSize: '14px',
+						fontStyle: 'normal',
+						fontWeight: '500',
+						lineHeight: '142.857%',
+						letterSpacing: '0.1px',
+						margin: '0',
+					}}
+				>
+					A few projects I&apos;ve contributed to include:
 				</p>
 			</section>
 

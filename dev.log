@@ -246,3 +246,129 @@ Sass is watching for changes. Press Ctrl-C to stop.
  ○ Compiling / ...
  ✓ Compiled / in 1260ms
  GET / 200 in 1527ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 784ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 1016ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 690ms
+ ○ Compiling / ...
+ ✓ Compiled / in 1252ms
+ GET / 200 in 1466ms
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 642ms
+ ⨯ A conflicting public file and page file was found for path /favicon.ico https://nextjs.org/docs/messages/conflicting-public-file-page
+ GET /favicon.ico?favicon.45db1c09.ico 500 in 731ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 668ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 818ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 730ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 704ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 720ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 705ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 702ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 694ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 805ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 671ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 674ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 907ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 661ms
+ ⚠ Found a change in next.config.js. Restarting the server to apply the changes...
+   ▲ Next.js 15.4.5 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.86.48:3000
+
+ ✓ Starting...
+ ✓ Ready in 783ms

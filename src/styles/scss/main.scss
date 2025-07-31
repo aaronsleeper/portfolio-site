@@ -1,0 +1,232 @@
+// =============================================================================
+// Main SCSS File
+// =============================================================================
+
+// Import all partials
+@use 'variables' as *;
+@use 'colors' as *;
+@use 'typography' as *;
+@use 'mixins' as *;
+@use 'site-header' as *;
+
+// =============================================================================
+// Tailwind CSS v4 Theme Configuration
+// =============================================================================
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--font-sans: var(--font-inter);
+	--font-heading: var(--font-bricolage-grotesque);
+	--color-sidebar-ring: var(--sidebar-ring);
+	--color-sidebar-border: var(--sidebar-border);
+	--color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+	--color-sidebar-accent: var(--sidebar-accent);
+	--color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+	--color-sidebar-primary: var(--sidebar-primary);
+	--color-sidebar-foreground: var(--sidebar-foreground);
+	--color-sidebar: var(--sidebar);
+	--color-chart-5: var(--chart-5);
+	--color-chart-4: var(--chart-4);
+	--color-chart-3: var(--chart-3);
+	--color-chart-2: var(--chart-2);
+	--color-chart-1: var(--chart-1);
+	--color-ring: var(--ring);
+	--color-input: var(--input);
+	--color-border: var(--border);
+	--color-destructive: var(--destructive);
+	--color-accent-foreground: var(--accent-foreground);
+	--color-accent: var(--accent);
+	--color-muted-foreground: var(--muted-foreground);
+	--color-muted: var(--muted);
+	--color-secondary-foreground: var(--secondary-foreground);
+	--color-secondary: var(--secondary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-primary: var(--primary);
+	--color-popover-foreground: var(--popover-foreground);
+	--color-popover: var(--popover);
+	--color-card-foreground: var(--card-foreground);
+	--color-card: var(--card);
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+}
+
+// =============================================================================
+// CSS Variables (Light Theme)
+// =============================================================================
+
+:root {
+	--radius: 0.625rem;
+	--radius-sm: calc(var(--radius) - 4px);
+	--radius-md: calc(var(--radius) - 2px);
+	--radius-lg: var(--radius);
+	--radius-xl: calc(var(--radius) + 4px);
+
+	// Use SCSS color maps to generate CSS variables
+	@include theme-colors('light');
+
+	// Custom gradient variables
+	--gradient-spectrum-050: linear-gradient(
+		90deg,
+		#3de1b0 0%,
+		#0061e0 14.29%,
+		#8f57ff 28.57%,
+		#b833e1 42.86%,
+		#ff2989 57.14%,
+		#ff4d5b 71.43%,
+		#ff7038 85.71%,
+		#ffa538 100%
+	);
+}
+
+// =============================================================================
+// Dark Theme Variables
+// =============================================================================
+
+.dark {
+	@include theme-colors('dark');
+}
+
+// =============================================================================
+// Base Styles
+// =============================================================================
+
+@layer base {
+	* {
+		@apply border-border outline-ring/50;
+	}
+
+	body {
+		@apply bg-background text-foreground;
+		@include body-base;
+	}
+
+	// Typography hierarchy
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-family: $font-bricolage-grotesque;
+	}
+
+	p,
+	span,
+	div,
+	li,
+	a {
+		font-family: $font-inter;
+	}
+}
+
+// =============================================================================
+// Utility Classes
+// =============================================================================
+
+@layer utilities {
+	// Typography utilities
+	.font-heading {
+		font-family: $font-bricolage-grotesque;
+	}
+
+	.font-body {
+		font-family: $font-inter;
+	}
+
+	// Container utilities
+	.container {
+		@include container;
+	}
+
+	// Flex utilities
+	.flex-center {
+		@include flex-center;
+	}
+
+	.flex-between {
+		@include flex-between;
+	}
+
+	.flex-column {
+		@include flex-column;
+	}
+
+	.flex-row {
+		@include flex-row;
+	}
+
+	// Grid utilities
+	.grid-responsive {
+		@include grid-responsive;
+	}
+
+	// Shadow utilities
+	.shadow-sm {
+		@include shadow-sm;
+	}
+
+	.shadow-md {
+		@include shadow-md;
+	}
+
+	.shadow-lg {
+		@include shadow-lg;
+	}
+
+	.shadow-xl {
+		@include shadow-xl;
+	}
+
+	// Transition utilities
+	.transition-colors {
+		@include transition-colors;
+	}
+
+	.transition-transform {
+		@include transition-transform;
+	}
+
+	// Hover utilities
+	.hover-lift {
+		@include hover-lift;
+	}
+
+	.hover-scale {
+		@include hover-scale;
+	}
+
+	.hover-opacity {
+		@include hover-opacity;
+	}
+
+	// Focus utilities
+	.focus-ring {
+		@include focus-ring;
+	}
+
+	.focus-visible {
+		@include focus-visible;
+	}
+
+	// Utility classes
+	.sr-only {
+		@include sr-only;
+	}
+
+	.truncate {
+		@include truncate;
+	}
+
+	.line-clamp-2 {
+		@include line-clamp(2);
+	}
+
+	.line-clamp-3 {
+		@include line-clamp(3);
+	}
+}

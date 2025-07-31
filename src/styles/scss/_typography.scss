@@ -1,0 +1,210 @@
+// =============================================================================
+// Typography Styles
+// =============================================================================
+
+@use 'variables' as *;
+
+// Typography Mixins
+@mixin heading-1 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-6xl;
+	font-weight: $font-weight-bold;
+	line-height: $line-height-tight;
+}
+
+@mixin heading-2 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-5xl;
+	font-weight: $font-weight-bold;
+	line-height: $line-height-tight;
+}
+
+@mixin heading-3 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-4xl;
+	font-weight: $font-weight-semibold;
+	line-height: $line-height-tight;
+}
+
+@mixin heading-4 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-3xl;
+	font-weight: $font-weight-semibold;
+	line-height: $line-height-tight;
+}
+
+@mixin heading-5 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-2xl;
+	font-weight: $font-weight-semibold;
+	line-height: $line-height-tight;
+}
+
+@mixin heading-6 {
+	font-family: $font-bricolage-grotesque;
+	font-size: $font-size-xl;
+	font-weight: $font-weight-semibold;
+	line-height: $line-height-tight;
+}
+
+@mixin body-large {
+	font-family: $font-inter;
+	font-size: $font-size-lg;
+	font-weight: $font-weight-normal;
+	line-height: $line-height-relaxed;
+}
+
+@mixin body-base {
+	font-family: $font-inter;
+	font-size: $font-size-base;
+	font-weight: $font-weight-normal;
+	line-height: $line-height-normal;
+}
+
+@mixin body-small {
+	font-family: $font-inter;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-normal;
+	line-height: $line-height-normal;
+}
+
+@mixin caption {
+	font-family: $font-inter;
+	font-size: $font-size-xs;
+	font-weight: $font-weight-normal;
+	line-height: $line-height-normal;
+}
+
+@mixin label {
+	font-family: $font-inter;
+	font-size: $font-size-sm;
+	font-weight: $font-weight-medium;
+	line-height: $line-height-normal;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+// Typography Utility Classes
+.heading-1 {
+	@include heading-1;
+}
+
+.heading-2 {
+	@include heading-2;
+}
+
+.heading-3 {
+	@include heading-3;
+}
+
+.heading-4 {
+	@include heading-4;
+}
+
+.heading-5 {
+	@include heading-5;
+}
+
+.heading-6 {
+	@include heading-6;
+}
+
+.body-large {
+	@include body-large;
+}
+
+.body-base {
+	@include body-base;
+}
+
+.body-small {
+	@include body-small;
+}
+
+.caption {
+	@include caption;
+}
+
+.label {
+	@include label;
+}
+
+// Responsive Typography Mixins
+@mixin responsive-heading-1 {
+	@include heading-1;
+
+	@media (max-width: $breakpoint-md) {
+		font-size: $font-size-5xl;
+	}
+
+	@media (max-width: $breakpoint-sm) {
+		font-size: $font-size-4xl;
+	}
+}
+
+@mixin responsive-heading-2 {
+	@include heading-2;
+
+	@media (max-width: $breakpoint-md) {
+		font-size: $font-size-4xl;
+	}
+
+	@media (max-width: $breakpoint-sm) {
+		font-size: $font-size-3xl;
+	}
+}
+
+// Text Alignment Utilities
+.text-left {
+	text-align: left;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+// Font Weight Utilities
+.font-light {
+	font-weight: $font-weight-light;
+}
+
+.font-normal {
+	font-weight: $font-weight-normal;
+}
+
+.font-medium {
+	font-weight: $font-weight-medium;
+}
+
+.font-semibold {
+	font-weight: $font-weight-semibold;
+}
+
+.font-bold {
+	font-weight: $font-weight-bold;
+}
+
+.font-extrabold {
+	font-weight: $font-weight-extrabold;
+}
+
+// Line Height Utilities
+.leading-tight {
+	line-height: $line-height-tight;
+}
+
+.leading-normal {
+	line-height: $line-height-normal;
+}
+
+.leading-relaxed {
+	line-height: $line-height-relaxed;
+}

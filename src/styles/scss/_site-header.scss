@@ -1,0 +1,43 @@
+// =============================================================================
+// Site Header Styles
+// =============================================================================
+
+.site-header {
+	// Header container styles
+	padding: 1rem 0;
+	border-bottom: 1px solid var(--border);
+
+	h1 {
+		// Main heading styles
+		font-family: var(--font-bricolage-grotesque);
+		font-size: 1.5rem;
+		font-weight: 600;
+		line-height: 1.25;
+		margin: 0;
+
+		span {
+			// Make all spans display as block elements
+			display: block;
+		}
+
+		.name {
+			// Name styling
+			font-weight: 700;
+			font-size: 2rem;
+		}
+
+		.role {
+			// Role styling
+			font-weight: 500;
+			font-size: 1.25rem;
+			color: var(--muted-foreground);
+		}
+
+		.location {
+			// Location styling
+			font-weight: 400;
+			font-size: 1rem;
+			color: var(--muted-foreground);
+		}
+	}
+}

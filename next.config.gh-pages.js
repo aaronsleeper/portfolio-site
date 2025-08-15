@@ -4,6 +4,7 @@ const nextConfig = {
 	trailingSlash: true,
 	basePath: '/portfolio-site',
 	assetPrefix: '/portfolio-site',
+	distDir: 'out',
 	images: {
 		unoptimized: true,
 		remotePatterns: [

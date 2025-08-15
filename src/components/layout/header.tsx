@@ -1,8 +1,9 @@
 'use client';
 
-import Link from 'next/link';
+import React from 'react';
+import { ThemeToggle } from '@/components/theme/theme-toggle';
 
-export function Header() {
+export const Header: React.FC = () => {
 	return (
 		<header
 			style={{
@@ -10,7 +11,7 @@ export function Header() {
 				top: '0',
 				left: '40px',
 				width: '213px',
-				backgroundColor: '#1F2033',
+				background: 'var(--sidebar)',
 				paddingTop: '72px',
 				paddingLeft: '0',
 				paddingRight: '0',
@@ -30,7 +31,7 @@ export function Header() {
 					background: 'var(--gradient-spectrum-050)',
 					borderRadius: '0 0 5px 5px',
 				}}
-			></div>
+			/>
 			<div
 				style={{
 					position: 'absolute',
@@ -43,9 +44,9 @@ export function Header() {
 					filter: 'blur(4px)',
 					opacity: '0.6',
 				}}
-			></div>
+			/>
 			<img
-				src="/images/logo-aaron-sleeper.svg"
+				src="/portfolio-site/images/logo-aaron-sleeper.svg"
 				alt="Aaron Sleeper Logo"
 				style={{
 					width: '32px',
@@ -58,7 +59,7 @@ export function Header() {
 				<span
 					style={{
 						display: 'block',
-						color: '#FFF',
+						color: 'var(--sidebar-foreground)',
 						fontFamily: 'Bricolage Grotesque',
 						fontSize: '45px',
 						fontStyle: 'normal',
@@ -74,7 +75,7 @@ export function Header() {
 				<span
 					style={{
 						display: 'block',
-						color: '#F9F9FA',
+						color: 'var(--sidebar-foreground-secondary)',
 						fontFamily: 'Inter',
 						fontSize: '14px',
 						fontStyle: 'normal',
@@ -91,7 +92,7 @@ export function Header() {
 				<span
 					style={{
 						display: 'block',
-						color: '#B2B2BD',
+						color: 'var(--sidebar-foreground-tertiary)',
 						fontFamily: 'Inter',
 						fontSize: '12px',
 						fontStyle: 'normal',
@@ -107,4 +108,4 @@ export function Header() {
 			</h1>
 		</header>
 	);
-}
+};

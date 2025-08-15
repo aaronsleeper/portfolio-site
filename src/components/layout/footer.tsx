@@ -1,4 +1,4 @@
-export function Footer() {
+export const Footer: React.FC = () => {
 	return (
 		<footer
 			style={{
@@ -10,24 +10,26 @@ export function Footer() {
 				flexDirection: 'column',
 			}}
 		>
-			{/* Email Container with Blurred Spectrum */}
 			<div
 				style={{
 					height: '56px',
 					borderRadius: '5px',
-					background: '#1F2033',
+					background: 'var(--sidebar)',
 					display: 'flex',
 					alignItems: 'center',
 					paddingLeft: '0.5rem',
-					boxShadow:
-						'0 2px 7px 0 rgba(0, 0, 0, 0.15), 0 5px 17px 0 rgba(0, 0, 0, 0.20)',
+					boxShadow: '0 2px 7px 0 rgba(0, 0, 0, 0.15), 0 5px 17px 0 rgba(0, 0, 0, 0.20)',
 					position: 'relative',
 				}}
 			>
 				<img
-					src="/images/icon-component-instance.svg"
+					src="/portfolio-site/images/icon-component-instance.svg"
 					alt="Contact icon"
-					style={{ width: '24px', height: '24px', marginRight: '0.5rem' }}
+					style={{
+						width: '24px',
+						height: '24px',
+						marginRight: '0.5rem',
+					}}
 				/>
 				<span
 					style={{
@@ -36,7 +38,7 @@ export function Footer() {
 						WebkitLineClamp: '2',
 						flex: '1 0 0',
 						overflow: 'hidden',
-						color: 'white',
+						color: 'var(--sidebar-foreground)',
 						textOverflow: 'ellipsis',
 						fontFamily: 'Inter',
 						fontSize: '11px',
@@ -50,15 +52,13 @@ export function Footer() {
 					<a
 						href="mailto:aaronsleeper@gmail.com"
 						style={{
-							color: 'white',
+							color: 'var(--sidebar-foreground)',
 							textDecoration: 'none',
 						}}
 					>
 						aaronsleeper@gmail.com
 					</a>
 				</span>
-
-				{/* Blurred Spectrum Gradient */}
 				<div
 					style={{
 						position: 'absolute',
@@ -71,8 +71,8 @@ export function Footer() {
 						filter: 'blur(4px)',
 						opacity: '0.6',
 					}}
-				></div>
+				/>
 			</div>
 		</footer>
 	);
-}
+};
